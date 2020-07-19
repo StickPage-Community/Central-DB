@@ -1,0 +1,26 @@
+{
+  "projectName": "Database-Repository",
+  "projectOwner": "StickPage",
+  "repoType": "gitlab",
+  "repoHost": "https://gitlab.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "contributors": [
+    {
+      "login": "AndreiJirohHaliliDev2006",
+      "name": "Andrei Jiroh Eugenio Halili",
+      "avatar_url": "https://secure.gravatar.com/avatar/db13b2559f347cd814dd444999db5b9c?s=80&d=identicon",
+      "profile": "https://gitlab.com/AndreiJirohHaliliDev2006",
+      "contributions": [
+        "code",
+        "maintenance",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

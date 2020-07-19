@@ -1,0 +1,23 @@
+{
+  "name": "@stickpage-api/db-repo",
+  "version": "0.1.0",
+  "description": "Repository of JSON-based DB files for @stickpage-api/json-db package.",
+  "main": "-",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/SitckPage/Database-Repository.git"
+  },
+  "author": "Andrei Jiroh <andreijiroh@madebythepins.tk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/SitckPage/Database-Repository/issues"
+  },
+  "homepage": "https://gitlab.com/SitckPage/Database-Repository#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "all-contributors-cli": "^6.16.1"
+  }
+}
