@@ -19,28 +19,32 @@
             "weaknesses": []
         },
         "creator": {
-            "name": "Name here",
-            "yt": "https://youtube.com/channel/id or https://youtube.com/user/usernameGoesHere",
+            "name": "Michael Moy",
+            "yt": "https://youtube.com/user/gildedguy",
             "stickpageForum": "",
-            "hyunsDojoForum": ""
+            "hyunsDojoForum": "https://hynsdojo.com/user.php?u=gildedguy"
         },
         "clan": null
     },
     "battles": [
         {
-            "opponent": "name1",
+            "opponent": "Fry",
             "result": "WIN",
             "reference": "https://youtu.be/ABCD1234EFG"
         },
         {
-            "opponent": "name2",
-            "result": "LOSE",
-            "reference": "https://youtu.be/ABCD1234EFG"
+            "opponent": "Jade",
+            "result": "WIN",
+            "reference": "https://youtu.be/WIP"
         },
         {
-            "opponent": "name3",
+            "opponent": "Bog",
             "result": "DRAW",
-            "reference": "https://youtu.be/ABCD1234EFG"
-        }
+            "reference": "https://youtu.be/WIP"
+        },
+        {
+             "opponent": "Oxob",
+             " result": "WIN",
+             "reference": " https://youtu.be/WIP
     ]
 }
