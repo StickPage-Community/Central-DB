@@ -9,10 +9,8 @@
     "characterMeta": {
         "powersAndAbilities": {
             "weapons": [
-                {
-                    "name": "Weapon name here",
-                    "description": "Less than 120 characters."
-                }
+                "stuff1",
+                "stuff2"
             ],
             "strength": [
                 "stuff1",
