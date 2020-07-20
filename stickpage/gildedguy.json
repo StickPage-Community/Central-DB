@@ -6,14 +6,11 @@
         "status": "active",
         "color": "Golden Armor, Dark-Grey, Green eyes"
     },
-    "rhgInfo": {
+    "characterInfo": {
         "powersAndAbilities": {
             "weapons": [],
             "abilities": [
-                {
-                    "name": "Enchance",
-                    "description": ""
-                }
+                
             ],
             "strength": [],
             "weaknesses": []
@@ -30,21 +27,21 @@
         {
             "opponent": "Fry",
             "result": "WIN",
-            "reference": "https://youtu.be/ABCD1234EFG"
+            "reference": "https://youtu.be/KFqsbjX8aLs"
         },
         {
             "opponent": "Jade",
             "result": "WIN",
-            "reference": "https://youtu.be/WIP"
+            "reference": "https://youtu.be/AQrfhjahsTQ"
         },
         {
             "opponent": "Bog",
             "result": "DRAW",
-            "reference": "https://youtu.be/WIP"
+            "reference": "https://youtu.be/CQL-ixTcqWU"
         },
         {
              "opponent": "Oxob",
              " result": "WIN",
-             "reference": " https://youtu.be/WIP
-    ]
+             "reference": "https://youtu.be/yjOmkJHZxbk"
+   ]
 }
