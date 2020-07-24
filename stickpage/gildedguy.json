@@ -8,9 +8,17 @@
     },
     "characterInfo": {
         "powersAndAbilities": {
-            "weapons": [],
+            "weapons": [
+                "Extending Red Sword",
+                "Glowing Stylus"
+            ],
             "abilities": [
-                
+                "Battle Continuation",
+                "Enhanced Speed",
+                "Enhanced Agility",
+                "Ehanced Resistance",
+                "Mental Resilience",
+                "Reforge"
             ],
             "strength": [],
             "weaknesses": []
@@ -18,6 +26,7 @@
         "creator": {
             "name": "Michael Moy",
             "yt": "https://youtube.com/user/gildedguy",
+            "twitch": "https://www.twitch.tv/gildedguy",
             "stickpageForum": "",
             "hyunsDojoForum": "https://hynsdojo.com/user.php?u=gildedguy"
         },

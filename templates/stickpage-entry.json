@@ -24,6 +24,7 @@
         "animator": {
             "name": "Name here, either real name or screen name",
             "yt": "https://youtube.com/channel/id or https://youtube.com/user/usernameGoesHere",
+            "twitch": "https://twitch.tv/stuffHere",
             "twitter": "https://twitter.com/username",
             "stickpageForum": "",
             "hyunsDojoForum": ""
