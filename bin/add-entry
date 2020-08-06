@@ -1,0 +1,43 @@
+#!/bin/bash
+
+stty quit "^C"
+trap "echo Cleanning up... && rm -rf .tmp/* && touch .tmp/.gitkeep && kill -2 $$ " 3
+
+# Attempt to identity OS type
+OS_INFO=$OSTYPE
+
+echo "hint:    Checking your OS for compartibility with this script..."
+sleep 3
+case "$OS_INFO" in
+  solaris*) echo "info:    You're using Solaris, hang tight..." && sleep 2 ;;
+  darwin*)  echo "info:    You're using macOS, hang tight..." && sleep 2 ;; 
+  linux*)   echo "info:    You're using Linux, hang tight..." && sleep 2 ;;
+  bsd*)     echo "info:    You're using BSD, hang tight..." && sleep 2 ;;
+  msys*)    echo "info:    You're using Windows, hang tight..." && sleep 2 ;;
+  *)        echo "error:    Unknown OS found, this means this script isn't supported. Please see the docs for details." && exit 2 ;;
+esac
+
+echo "prompt:    What category do you like to add an new entry?"
+select step1 in "StickPage" "Animator" "Leave the prompt"; do
+    case $step1 in
+        StickPage ) cp templates/stickpage-entry.json .tmp/your-new-entry.stickpage.json; break;;
+        Animator ) cp templates/animator.json .tmp/your-new-entry.animator.json; break;;
+        "Leave the prompt" ) echo "Leaving the prompt..."; break;
+    esac
+done
+
+if [[ $step1 == "StickPage" ]]
+then
+    read -p "prompt:   Please enter the stick character name. (Only small letters and dashes) " newEntry_StickPage
+    mv .tmp/your-new-entry.animator.json stickpage/$newEntry_StickPage.json
+    echo "hint:   Opening your text editor for you..."
+    sleep 5
+    $(which nano>/dev/null&&echo nano||vi) stickpage/$newEntry_StickPage.json
+elif [[ $step1 == "Animator" ]]
+then
+    read -p "prompt:   Please enter the animator name. (Only small letters and dashes)" newEntry_Animator
+    mv .tmp/your-new-entry.animator.json animators/$newEntry_Animator.json
+    echo "hint:   Opening your text editor for you..."
+    sleep 5
+    $(which nano>/dev/null&&echo nano||vi) animators/$newEntry_Animator.json
+fi
