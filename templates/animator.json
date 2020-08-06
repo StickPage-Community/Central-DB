@@ -9,12 +9,10 @@
 "identityVerificationStatus": {
         "basicIdentityVerification": {
             "isSuccess": false,
-            "description": "Basic identity verification, by looking for verified badges on YT and Twitter. If not found, check if subs are <= 10,000 and followers are <= 500. See docs for details.",
             "relatedGitlabIssue": "https://gitlab.com/StickPage/Database-Repository/issues/N or null"
         },
         "forumActivity": {
             "isSuccess": false,
-            "description": "Atleast 10 threads created and 25 threads where part on StickPage/Hyun's Dojo Forum.",
             "relatedGitlabIssue": "https://gitlab.com/StickPage/Database-Repository/issues/N or null"
         }
     },
