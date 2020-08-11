@@ -1,11 +1,7 @@
 #!/bin/bash
 
-stty quit "^C"
-trap "echo Cleanning up... && rm -rf .tmp/* && touch .tmp/.gitkeep && kill -2 $$ " 3
-
 # Attempt to identity OS type
 OS_INFO=$OSTYPE
-
 echo "hint:    Checking your OS for compartibility with this script..."
 sleep 3
 case "$OS_INFO" in
@@ -32,12 +28,15 @@ then
     mv .tmp/your-new-entry.animator.json stickpage/$newEntry_StickPage.json
     echo "hint:   Opening your text editor for you..."
     sleep 5
-    $(which nano>/dev/null&&echo nano||vi) stickpage/$newEntry_StickPage.json
+    $(which nano>/dev/null&&echo nano||echo vi) stickpage/$newEntry_StickPage.json
 elif [[ $step1 == "Animator" ]]
 then
     read -p "prompt:   Please enter the animator name. (Only small letters and dashes)" newEntry_Animator
     mv .tmp/your-new-entry.animator.json animators/$newEntry_Animator.json
     echo "hint:   Opening your text editor for you..."
     sleep 5
-    $(which nano>/dev/null&&echo nano||vi) animators/$newEntry_Animator.json
+    $(which nano>/dev/null&&echo nano||echo vi) animators/$newEntry_Animator.json
 fi
+
+echo "info:    Cleanning up..." && rm -rf .tmp/*.json
+echo "info:    Done cleanning up! Exiting cleanly..." && exit
