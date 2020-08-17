@@ -1,2 +1,4 @@
 require:
-  members: false # Skip checks for org members, but we'll remind them to sign-off!
+  # Skip checks for org members, but we'll remind them to sign-off!
+  # Checks will be skipped and marked as passed ONLY IF you signed your commits with GPG.
+  members: false
