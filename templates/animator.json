@@ -1,21 +1,8 @@
 {
     "animatorName": "",
-    "stickCharactersMade": [
-            "stuff1",
-            "stuff2"
-       ],
+    "alsoKnownAs": "stick character here. for multiple characters, see the docs.",
     "status": "active|inactive|retired",
     "animatorSince": "mm/dd/yyyy",
-"identityVerificationStatus": {
-        "basicIdentityVerification": {
-            "isSuccess": false,
-            "relatedGitlabIssue": "https://gitlab.com/StickPage/Database-Repository/issues/N or null"
-        },
-        "forumActivity": {
-            "isSuccess": false,
-            "relatedGitlabIssue": "https://gitlab.com/StickPage/Database-Repository/issues/N or null"
-        }
-    },
     "socialAccounts": {
         "yt": "https://youtube.com/user/UsernameHere",
         "stickpageForum": "",
