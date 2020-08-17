@@ -8,7 +8,7 @@ The project adopts the [Contributor Covenant v2.0](https://www.contributor-coven
 
 [Read the documentation][docs] for details on how you can contribute to the database.
 
-[docs]: https://thepinsteam.gitbook.io/stickpage-api-docs/contribute
+[docs]: https://thepinsteam.gitbook.io/stickpage-community-docs/contribute
 
 ## Developer's Certificate of Origin 1.1
 

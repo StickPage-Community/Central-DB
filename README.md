@@ -17,7 +17,7 @@ to add your name to our contributors list.
 
 To get started contributing, read the `CONTRIBUTING.md` file. For other stuff, [read the documentation][docs]
 
-[docs]: https://thepinsteam.gitbook.io/stickpage-api-docs/
+[docs]: https://thepinsteam.gitbook.io/stickpage-community-docs/
 
 ## License
 
