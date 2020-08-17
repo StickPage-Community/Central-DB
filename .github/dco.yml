@@ -1,0 +1,2 @@
+require:
+  members: false # Skip checks for org members, but we'll remind them to sign-off!
