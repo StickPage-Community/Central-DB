@@ -1,0 +1,16 @@
+# Configuration for the Labeler action.
+# Most of them are adopted from the examples, with customizations.
+
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
+  
+# For entry updates, we'll label based on what it's edited.
+animators:
+  - animators/*.json
+  
+stick-characters:
+  - stickpage/*.json
+  
+slushers:
+  - slushers/*.json
