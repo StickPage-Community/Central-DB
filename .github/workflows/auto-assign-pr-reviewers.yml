@@ -1,0 +1,17 @@
+# This is a basic workflow to help you get started with Actions
+
+name: "Auto-assign PRs to the Pins team as reviewer"
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  assign-reviewers:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Auto Assign Reviewer to the Pins Tea,
+      uses: shufo/auto-assign-reviewer-by-files@v1.1.1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        config: .github/assign-by-files.yml
