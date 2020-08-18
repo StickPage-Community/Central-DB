@@ -1,0 +1,23 @@
+# GitHub stuff
+'.github/*':
+  - AndreiJirohHaliliDev2006
+  
+# GitLab stuff
+'.gitlab/*':
+  - AndreiJirohHaliliDev2006
+
+# StickPage entries
+'stickpage/*.json':
+  - ThePinsTeam
+  
+# Stick character animator entries
+'animators/*.json':
+  - ThePinsTeam
+  
+# Stuff related to Slushers
+'slushers/*.json':
+  - ThePinsTeam
+  
+# Script files
+'bin/*':
+  - AndreiJirohHaliliDev2006
