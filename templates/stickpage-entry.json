@@ -1,18 +1,16 @@
 {
-    "characterName": "",
+    "characterName": "Insert name here",
     "characterPhoto": "https://link.to/the/photo/of/the-character.png",
     "generalInfo": {
         "gender": "male|female|other",
         "status": "active|inactive|retired",
-        "color": "hex format"
+        "color": "hex format or description"
     },
-    "rhgInfo": {
+    "characterMeta": {
         "powersAndAbilities": {
             "weapons": [
-                {
-                    "name": "Weapon name here",
-                    "description": "Less than 120 characters."
-                }
+                "stuff1",
+                "stuff2"
             ],
             "strength": [
                 "stuff1",
@@ -23,9 +21,11 @@
                 "stuff2"
             ]
         },
-        "creator": {
-            "name": "Name here",
+        "animator": {
+            "name": "Name here, either real name or screen name",
             "yt": "https://youtube.com/channel/id or https://youtube.com/user/usernameGoesHere",
+            "twitch": "https://twitch.tv/stuffHere",
+            "twitter": "https://twitter.com/username",
             "stickpageForum": "",
             "hyunsDojoForum": ""
         },

@@ -1,0 +1,58 @@
+{
+    "characterName": "Gildedguy",
+    "characterPhoto": "https://link.to/the/photo/of/the-character.png",
+    "generalInfo": {
+        "gender": "male",
+        "status": "active",
+        "color": "Golden Armor, Dark-Grey, Green eyes"
+    },
+    "characterInfo": {
+        "powersAndAbilities": {
+            "weapons": [
+                "Extending Red Sword",
+                "Glowing Stylus"
+            ],
+            "abilities": [
+                "Battle Continuation",
+                "Enhanced Speed",
+                "Enhanced Agility",
+                "Ehanced Resistance",
+                "Mental Resilience",
+                "Reforge"
+            ],
+            "strength": [],
+            "weaknesses": []
+        },
+        "creator": {
+            "name": "Michael Moy",
+            "yt": "https://youtube.com/user/gildedguy",
+            "twitch": "https://www.twitch.tv/gildedguy",
+            "stickpageForum": "",
+            "hyunsDojoForum": "https://hynsdojo.com/user.php?u=gildedguy"
+        },
+        "clan": null
+    },
+    "battles": [
+        {
+            "opponent": "Fry",
+            "result": "WIN",
+            "reference": "https://youtu.be/KFqsbjX8aLs"
+        },
+        {
+            "opponent": "Jade",
+            "result": "WIN",
+            "reference": "https://youtu.be/AQrfhjahsTQ"
+        },
+        {
+            "opponent": "Bog",
+            "result": "DRAW",
+            "reference": "https://youtu.be/CQL-ixTcqWU"
+        },
+        {
+             "opponent": "Oxob",
+             " result": "WIN",
+             "reference": "https://youtu.be/yjOmkJHZxbk"
+        }
+   ]
+}
+

@@ -1,0 +1,12 @@
+{
+    "animatorName": "",
+    "alsoKnownAs": "stick character here. for multiple characters, see the docs.",
+    "status": "active|inactive|retired",
+    "animatorSince": "mm/dd/yyyy",
+    "socialAccounts": {
+        "yt": "https://youtube.com/user/UsernameHere",
+        "stickpageForum": "",
+        "hyunsDojoForum": "https://hynsdojo.com/user.php?u=username",
+        "twitter": "https://twitter.com/username"
+    }
+}

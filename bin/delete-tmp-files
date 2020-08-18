@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "info:    Deleting temporary files..."
+rm -rf .tmp/*.json .tmp/*.log
+echo "info:    Deleted X temporary files."
